@@ -93,3 +93,14 @@ def tr_knn(X, y, n_neighbors=5, weights='uniform'):
     model = KNeighborsRegressor(n_neighbors=n_neighbors, weights=weights)
     model.fit(X, y)
     return model
+
+def tr_xgb(X, y, n_estimators=100, max_depth=None, min_samples_split=2):
+    model = XGBRegressor(n_estimators=n_estimators, max_depth=max_depth, min_samples_split=min_samples_split, random_state=42)
+    model.fit(X, y)
+    return model
+
+
+def tr_adaboost(X, y, n_estimators=50, learning_rate=1.0):
+    model = AdaBoostRegressor(n_estimators=n_estimators, learning_rate=learning_rate, random_state=42)
+    model.fit(X, y)
+    return model
