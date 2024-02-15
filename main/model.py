@@ -44,7 +44,7 @@ def grid_search(X, y, model_name):
             'learning_rate': [0.05, 0.1, 0.2]
         }
     elif model_name == "AdaBoostRegressor":
-        model = AdaBoostRegressor(random_state=42)
+        model = AdaBoostRegressor(random_state=13)
         param_grid = {
             'n_estimators': [50, 100, 200],
             'learning_rate': [0.05, 0.1, 0.2]
@@ -94,27 +94,26 @@ def tr_knn(X, y, n_neighbors=5, weights='uniform'):
     model.fit(X, y)
     return model
 
-def tr_xgb(X, y, n_estimators=100, max_depth=None, min_samples_split=2):
-    model = XGBRegressor(n_estimators=n_estimators, max_depth=max_depth, min_samples_split=min_samples_split, random_state=13)
+def tr_xgb(X, y, n_estimators=50, max_depth=None, learning_rate=0.05):
+    model = XGBRegressor(n_estimators=n_estimators, max_depth=max_depth, learning_rate=learning_rate, random_state=13)
     model.fit(X, y)
     return model
 
-
-def tr_adaboost(X, y, n_estimators=50, learning_rate=1.0):
+def tr_adaboost(X, y, n_estimators=50, learning_rate=0.1):
     model = AdaBoostRegressor(n_estimators=n_estimators, learning_rate=learning_rate, random_state=13)
     model.fit(X, y)
     return model
 
 def tr_lgb(X, y, max_depth=2, learning_rate=0.1, n_estimators=100):
-    model = LGBMRegressor.LGBMRegressor(max_depth=max_depth,
-                            learning_rate=learning_rate,
-                            n_estimators= n_estimators)
+    model = LGBMRegressor(max_depth=max_depth,
+                          learning_rate=learning_rate,
+                          n_estimators=n_estimators)
     model.fit(X, y)
     return model
 
 def tr_gbm(X, y, max_depth=2, learning_rate=0.1, n_estimators=100):
-    model = GradientBoostingRegressor.LGBMRegressor(max_depth=max_depth,
-                            learning_rate=learning_rate,
-                            n_estimators= n_estimators)
+    model = GradientBoostingRegressor(max_depth=max_depth,
+                                      learning_rate=learning_rate,
+                                      n_estimators=n_estimators)
     model.fit(X, y)
     return model
