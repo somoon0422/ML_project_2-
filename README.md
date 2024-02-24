@@ -6,4 +6,5 @@ logo
 <img alt="Static Badge" src="https://img.shields.io/badge/seaborn%20-%20%23674BBB">
 <img alt="Static Badge" src="https://img.shields.io/badge/matplotlib%20-%20%233483A0">
 <img alt="Static Badge" src="https://img.shields.io/badge/sklearn%20-%20%23DA795E">
-<img alt="Static Badge" src="https://img.shields.io/badge/plotly%20-%20black">
+<img alt="Static Badge" src="https://img.shields.io/badge/plotly%20-%20%23595959">
+
