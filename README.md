@@ -6,8 +6,7 @@
 
 
 <p align="center">language
-<p align="center"><img alt="Static Badge" src="https://img.shields.io/badge/python%20-%20%23FBBC00"><img alt="Static Badge" src="https://img.shields.io/badge/jupyter%20-%20%23FD6F48">
-
+<p align="center"><img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white"/><img alt="Static Badge" src="https://img.shields.io/badge/jupyter%20-%20%23FD6F48">
 
 <p align="center">logo
 <p align="center"><img alt="Static Badge" src="https://img.shields.io/badge/pandas%20-%20%232E6DA8"><img alt="Static Badge" src="https://img.shields.io/badge/numpy%20-%20%233B78E2"><img alt="Static Badge" src="https://img.shields.io/badge/seaborn%20-%20%23674BBB"><img alt="Static Badge" src="https://img.shields.io/badge/matplotlib%20-%20%233483A0">
@@ -22,7 +21,8 @@
 2. 복잡한 혈관 구조를 고려해 정확한 수술의 필요성
 3. 글로벌 디지털 헬스케어 산업 긍정적 전망
 
-### Date: 2024.01.22 ~ 2024.02. 25(1달)
+### Date: 
+2024.01.22 ~ 2024.02. 25(1달)
 
 ### Number of participants
 3명(강수정, 김소희, 조규리)
