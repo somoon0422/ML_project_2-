@@ -5,10 +5,10 @@
 
 
 
-<p align="center">language
+<p align="center">Language
 <p align="center"><img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white"/><img src="https://img.shields.io/badge/jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
 
-<p align="center">logo
+<p align="center">Library
 <p align="center"><img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/><img src="https://img.shields.io/badge/numpy-013243?style=flat-square&logo=numpy&logoColor=white"/><img alt="Static Badge" src="https://img.shields.io/badge/seaborn%20-%20%23674BBB"><img alt="Static Badge" src="https://img.shields.io/badge/matplotlib%20-%20%233483A0">
 <p align="center"><img src="https://img.shields.io/badge/scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/><img src="https://img.shields.io/badge/plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white"/>
   
